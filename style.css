@@ -22,6 +22,7 @@
     flex-basis: 0;
 }
 
+
 /* Opdracht 3: */
 .opdracht-3 .flex-container {
     display: flex;
@@ -45,6 +46,7 @@
     justify-self: flex-end;
 }
 
+
 /* Opdracht 4: */
 .opdracht-4 .flex-container {
     display: flex;
@@ -52,6 +54,7 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
 
 /* Opdracht 5: */
 .opdracht-5 .flex-container {
