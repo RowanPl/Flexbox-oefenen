@@ -39,11 +39,7 @@ h3 {
     min-height: 100%;
 }
 
-.opdracht-1 .flex-item,
-.opdracht-2 .flex-item,
-.opdracht-3 .flex-item,
-.opdracht-4 .flex-item,
-.opdracht-5 .flex-item {
+li {
     font-family: 'Poppins', sans-serif;
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: fit-content;
