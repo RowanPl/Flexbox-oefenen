@@ -5,32 +5,25 @@
     justify-content: space-between;
 }
 
-.opdracht-1 .flex-item {
-
-}
-
-
 /* Opdracht 2: */
 .opdracht-2 .flex-container {
     display: flex;
     flex-direction: row;
     align-items: stretch;
 }
+
 .opdracht-2 .flex-item {
     flex-grow: 1;
     flex-shrink: 1;
+    /*Zullen we hier voor de "duidelijkheid" een pixel breedte voor geven? Geeft hetzelfde resultaat maar sluit iets meer aan bij wat we doceren*/
     flex-basis: 0;
 }
-
 
 /* Opdracht 3: */
 .opdracht-3 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.opdracht-3 .flex-item {
-
 }
 
 .opdracht-3 .top-left {
@@ -46,7 +39,6 @@
     justify-self: flex-end;
 }
 
-
 /* Opdracht 4: */
 .opdracht-4 .flex-container {
     display: flex;
@@ -54,7 +46,6 @@
     flex-wrap: wrap;
     gap: 10px;
 }
-
 
 /* Opdracht 5: */
 .opdracht-5 .flex-container {
@@ -69,6 +60,7 @@
     justify-content: space-between;
 }
 
+/*Met de selector nth-of-type(getal) kun je het "zoveelste" element van dat type aanspreken*/
 .opdracht-5 .flex-column:nth-of-type(1) {
     align-items: flex-start;
 }
@@ -79,8 +71,4 @@
 
 .opdracht-5 .flex-column:nth-of-type(3) {
     align-items: flex-end;
-}
-
-.opdracht-5 .flex-item {
-
 }
