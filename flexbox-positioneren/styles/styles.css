@@ -1,24 +1,26 @@
-/* Opdracht 1: */
+/* ------------------- Opdracht 1:  -------------------  */
 .opdracht-1 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/* Opdracht 2: */
+/*  ------------------- Opdracht 2:  ------------------- */
 .opdracht-2 .flex-container {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    /* @todo dat stretchen gebeurd automatisch al, dus mag weg */
+    /*align-items: stretch;*/
 }
 
 .opdracht-2 .flex-item {
-    flex-grow: 1;
-    flex-shrink: 1;
+    /* @todo De flex grow en shrink properties kunnen ze niet herleiden uit dit voorbeeld, dus dit mag weg*/
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
     flex-basis: 240px;
 }
 
-/* Opdracht 3: */
+/*  ------------------- Opdracht 3:  ------------------- */
 .opdracht-3 .flex-container {
     display: flex;
     flex-direction: row;
@@ -35,10 +37,11 @@
 
 .opdracht-3 .bottom-right {
     align-self: flex-end;
-    justify-self: flex-end;
+    /* @todo doet niks, dus dit mag weg*/
+    /*justify-self: flex-end;*/
 }
 
-/* Opdracht 4: */
+/*  ------------------- Opdracht 4:  ------------------- */
 .opdracht-4 .flex-container {
     display: flex;
     flex-direction: row;
@@ -46,7 +49,7 @@
     gap: 10px;
 }
 
-/* Opdracht 5: */
+/*  ------------------- Opdracht 5:  ------------------- */
 .opdracht-5 .flex-container {
     display: flex;
     flex-direction: row;
@@ -57,6 +60,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 /*Met de selector nth-of-type(getal) kun je het "zoveelste" element van dat type aanspreken*/
