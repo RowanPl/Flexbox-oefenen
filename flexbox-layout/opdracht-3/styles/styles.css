@@ -8,7 +8,6 @@ body {
 .col-1 {
     /*Dit kunnen we beter uitschrijven! */
     flex: 1;
-    background: var(--clr-blue-100);
     padding: 1em;
 }
 .col-2 {
@@ -19,7 +18,6 @@ body {
 }
 
 header {
-    background: var(--clr-blue-200);
     padding: 1em 1em 10em 1em;
 }
 
@@ -31,21 +29,16 @@ main {
 article {
     /*Dit kunnen we beter uitschrijven! */
     flex: 3;
-    background: var(--clr-blue-300);
     padding: 1em;
 }
 
 aside {
     /*Dit kunnen we beter uitschrijven! */
     flex: 1;
-    color: var(--clr-blue-100);
-    background: var(--clr-blue-400);
     padding: 1em;
 }
 
 footer {
-    color: var(--clr-blue-100);
-    background: var(--clr-blue-500);
     padding: 1em 1em 2em 1em;
 }
 

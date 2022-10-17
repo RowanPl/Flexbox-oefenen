@@ -8,7 +8,6 @@ body {
 .col-1 {
     /*Dit kunnen we beter uitschrijven! */
     /*flex-grow: 1;*/
-    background: var(--clr-blue-100);
     border: 1px solid red;
     padding: 1em;
     flex-basis: 600px;
@@ -24,7 +23,6 @@ body {
 }
 
 header {
-    background: var(--clr-blue-200);
     padding: 1em 1em 10em 1em;
     /*flex-basis: 20%;*/
 }
@@ -38,13 +36,10 @@ main {
 article {
     /*Dit kunnen we beter uitschrijven! */
     /*flex: 4;*/
-    background: var(--clr-blue-300);
     padding: 1em;
 }
 
 footer {
-    color: var(--clr-blue-100);
-    background: var(--clr-blue-400);
     padding: 1em 1em 2em 1em;
     /*flex-basis: 20%;*/
 }

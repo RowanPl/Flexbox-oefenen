@@ -12,3 +12,25 @@
     --clr-blue-400: #28505D;
     --clr-blue-500: #1A293A;
 }
+
+header {
+    background: var(--clr-blue-100);
+}
+
+article {
+    background: var(--clr-blue-200);
+}
+
+nav {
+    color: var(--clr-blue-100);
+    background: var(--clr-blue-400);
+}
+
+aside {
+    background: var(--clr-blue-300);
+}
+
+footer {
+    color: var(--clr-blue-100);
+    background: var(--clr-blue-500);
+}
