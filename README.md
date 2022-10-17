@@ -15,12 +15,12 @@ Geen zin om te typen? Onderaan in `README` vind je alle dummytekst voor deze opd
 
 ## Eindresultaat
 
-![Het eindresultaat op desktop](assets/examples/voorbeeld-pagina-desktop.png)
+![Het eindresultaat op desktop](flexbox-positioneren/assets/examples/voorbeeld-pagina-desktop.png)
 
 ## Randvoorwaarden
-* De CSS voeg je aan het [styles.css](styles/styles.css) bestand.
+* De CSS voeg je aan het [styles.css](flexbox-positioneren/styles/styles.css) bestand.
 * Je hoeft géén nieuwe `HTML elementen` te creëren.
-* En daar waar nodig maak je classes aan in het [index.html](index.html) bestand.
+* En daar waar nodig maak je classes aan in het [index.html](flexbox-positioneren/index.html) bestand.
 * Elke opdracht heeft een eigen `section` element. Dit element is om een nieuwe opdracht aan te duiden en gebruik je verder niet om je elementen op uit te lijnen. Dit doe je dus elke op de `div`, `ul` of `li` items.
 * Gebruik hiervoor de stof die je tijdens de lessen en in edHub hebt bestudeerd.
 * Je mag de bestanden (`.css` & `.html`) niet verplaatsen.
@@ -35,26 +35,26 @@ _TIP_: Kom je er niet helemaal uit? Check of de parent container is voorzien van
 In het index.html bestand hebben we 5 opdrachten uitgewerkt. Zorg ervoor dat deze onderdelen er exact zo uit komen te zien als in het voorbeeld erboven wordt weergegeven.
 
 ### Opdracht 1:
-![Het resultaat van opdracht 1](assets/images/opdracht-1-eindresultaat.jpg)
+![Het resultaat van opdracht 1](flexbox-positioneren/assets/images/opdracht-1-eindresultaat.jpg)
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 
 ### Opdracht 2:
-![Het resultaat van opdracht 2](assets/images/opdracht-2-eindresultaat.jpg)
+![Het resultaat van opdracht 2](flexbox-positioneren/assets/images/opdracht-2-eindresultaat.jpg)
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 
 #### Opdracht 3:
-![Het resultaat van opdracht 3](assets/images/opdracht-3-eindresultaat.jpg)
+![Het resultaat van opdracht 3](flexbox-positioneren/assets/images/opdracht-3-eindresultaat.jpg)
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 
 #### Opdracht 4:
-![Het resultaat van opdracht 4](assets/images/opdracht-4-eindresultaat.jpg)
+![Het resultaat van opdracht 4](flexbox-positioneren/assets/images/opdracht-4-eindresultaat.jpg)
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 
 #### Opdracht 5:
-![Het resultaat van opdracht 5](assets/images/opdracht-5-eindresultaat.jpg)
+![Het resultaat van opdracht 5](flexbox-positioneren/assets/images/opdracht-5-eindresultaat.jpg)
 - [ ] Lorem ipsum dolor sit amet, consectetur adip
 - [ ] Lorem ipsum dolor sit amet, consectetur adip

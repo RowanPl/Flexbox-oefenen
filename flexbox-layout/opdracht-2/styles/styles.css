@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    /*min-width: 100vw;*/
+}
+
+.col-1 {
+    /*Dit kunnen we beter uitschrijven! */
+    /*flex-grow: 1;*/
+    background: var(--clr-blue-100);
+    border: 1px solid red;
+    padding: 1em;
+    flex-basis: 600px;
+    height: 100%;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    /*Dit kunnen we beter uitschrijven! */
+    /*width: 80%;*/
+    /*flex: 5;*/
+}
+
+header {
+    background: var(--clr-blue-200);
+    padding: 1em 1em 10em 1em;
+    /*flex-basis: 20%;*/
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    /*flex-basis: 80%;*/
+}
+
+article {
+    /*Dit kunnen we beter uitschrijven! */
+    /*flex: 4;*/
+    background: var(--clr-blue-300);
+    padding: 1em;
+}
+
+footer {
+    color: var(--clr-blue-100);
+    background: var(--clr-blue-400);
+    padding: 1em 1em 2em 1em;
+    /*flex-basis: 20%;*/
+}

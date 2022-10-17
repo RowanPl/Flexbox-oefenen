@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: var(--clr-blue-100);
+    padding: 1em 1em 10em 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    /*Dit kunnen we beter uitschrijven! */
+    flex: 1;
+    background: var(--clr-blue-300);
+    padding: 1em;
+}
+
+nav {
+    /*Dit kunnen we beter uitschrijven! */
+    flex: 0 0 20vw;
+    background: var(--clr-blue-200);
+    padding: 1em;
+    order: -1;
+}
+
+aside {
+    color: var(--clr-blue-100);
+    /*Dit kunnen we beter uitschrijven! */
+    flex: 0 0 20vw;
+    background: var(--clr-blue-400);
+    padding: 1em;
+}
+
+footer {
+    color: var(--clr-blue-100);
+    background: var(--clr-blue-500);
+    padding: 1em 1em 2em 1em;
+}
