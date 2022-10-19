@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    flex-basis: 20vh;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+article {
+    flex-grow: 1;
+}
+
+nav {
+    flex-basis: 20vw;
+    flex-shrink: 0;
+    order: -1;
+}
+
+aside {
+    flex-basis: 20vw;
+    flex-shrink: 0;
+
+}
+
+footer {
+    flex-basis: 20vh;
+    flex-shrink: 0;
+}

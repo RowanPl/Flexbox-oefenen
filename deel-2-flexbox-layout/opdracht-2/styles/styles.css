@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.col-1 {
+    flex-basis: 20vw;
+    flex-shrink: 0;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+header {
+    flex-basis: 20%;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+article {
+    width: 100%;
+}
+
+footer {
+    flex-basis: 20%;
+    flex-shrink: 0;
+}

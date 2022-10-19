@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.outer-col-1 {
+    flex-basis: 20vw;
+    flex-shrink: 0;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+header {
+    flex-basis: 20vh;
+    flex-shrink: 0;
+}
+
+.inner-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+article {
+    flex-grow: 1;
+}
+
+aside {
+    flex-basis: 20vw;
+    flex-shrink: 0;
+}
+
+footer {
+    height: 20vh;
+    flex-shrink: 0;
+}
+
