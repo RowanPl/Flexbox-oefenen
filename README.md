@@ -67,3 +67,47 @@ _TIP_: Kom je er niet helemaal uit? Check of de parent container is voorzien van
 - [ ] Hoe krijg je de elementen die erin staan vervolgens weer onder elkaar (`column`)?
 - [ ] In de kolommen loopt de hoofd-as van boven naar beneden. Welke property had je ook alweer nodig om items over de hoofd-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens!
 - [ ] Als je goed oplet zie je dat de items in de eerste kolom links uitgelijnd zijn, de items in de tweede kolom in het midden en de items in de rechter kolom rechts. Dit zul je dus voor iedere kolom apart moeten instellen. In de kolommen loopt de kruis-as van links naar rechts. Welke property had je ook alweer nodig om items over de kruis-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-items) eens!
+
+## Opdracht 2
+
+### Eindresultaat
+Alle afbeeldingen.
+
+### Randvoorwaarden
+In iedere opdracht-map vind je een HTML-pagina met elementen en een (leeg) CSS-bestand. Zorg er met Flexbox voor dat de elementen zich precies zo positioneren als in het voorbeeld. Controleer hierbij ook altijd goed of de layout niet kapot gaat wanneer je de tekst eruit haalt, of juist meer tekst toevoegt.
+
+* Je mag niets aanpassen in de `index.html` bestanden, maar daar waar nodig mag je wel classes toevoegen aan de bestaande elementen.
+* Je mag het bestand `global-styles.css` niet aanpassen. Hier zit de basis-opmaak in voor de layouts;
+* Je gebruikt enkel flexbox properties om de elementen uit te lijnen, dus geen `position`, `padding` of `margin`!
+
+_TIP_: Als je `flex-shrink` of `flex-grow` properties wil gebruiken, zul je altijd eerst een `flex-basis`-waarde moeten declareren. Hoeft het element geen specifieke breedte te hebben, maar vooral alle overgebleven ruimte opvullen? Gebruik dan `flex-basis: auto` en wijs de juiste shrink- en grow-waardes toe.
+
+### Stappenplan
+Vind je het lastig om te beginnen? Volg dan het stappenplan.
+
+_TIP_: Kom je er niet helemaal uit? Teken eerst uit welke richtingen je allemaal nodig hebt om alle items naast- en onder elkaar te krijgen.
+
+### Deelopdracht 1:
+![Het resultaat van opdracht 1]()
+- [ ] Lorem ipsum
+- [ ] Lorem ipsum
+
+### Deelopdracht 2:
+![Het resultaat van opdracht 2]()
+- [ ] Lorem ipsum
+- [ ] Lorem ipsum
+
+### Deelopdracht 3:
+![Het resultaat van opdracht 3]()
+- [ ] Lorem ipsum
+- [ ] Lorem ipsum
+
+### Deelopdracht 4:
+![Het resultaat van opdracht 4]()
+- [ ] Lorem ipsum
+- [ ] Lorem ipsum
+
+### Deelopdracht 5:
+![Het resultaat van opdracht 5]()
+- [ ] Lorem ipsum
+- [ ] Lorem ipsum

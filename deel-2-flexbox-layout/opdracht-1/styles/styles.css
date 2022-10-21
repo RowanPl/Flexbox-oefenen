@@ -1,38 +1,74 @@
 body {
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
-    height: 100vh;
 }
 
 header {
-    flex-basis: 20%;
+    /* @todo: dit wil je niet doen bij HOOGTES. Als de content langer wordt, betekend 20% ineens een kleinere header. Ik heb het op alle andere plekken vervangen, maar hier nog even laten staan zodat het voor jou duidelijk is waarom! :) */
+    /* WEGHALEN flex-basis: 20%;*/
+    /*Omdat header in een column-container staat, gaat flex-basis hier over de HOOGTE*/
+    flex-basis: 150px;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
+    /*Het element mag niét groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 0;
 }
 
 main {
+    /*Omdat header in een column-container staat, gaat flex-basis hier over de HOOGTE. We willen dat dit item alle overgebleven ruimte inneemt, dus zetten we de hoogte op auto en regelen we de rest met de grow-property*/
+    flex-basis: auto;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
+    flex-shrink: 0;
+    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 1;
+
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
 }
 
 article {
+    /*Omdat article in een row-container staat, gaat flex-basis hier over de BREEDTE */
+    flex-basis: 60vw;
+    /*Het element mag wél kleiner worden dan de basis afmeting als er minder ruimte is */
+    flex-shrink: 1;
+    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
+    /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 1;
+    padding: 1em;
 }
 
 nav {
-    flex-basis: 20%;
+    /*Omdat nav in een row-container staat, gaat flex-basis hier over de BREEDTE */
+    flex-basis: 20vw;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
+    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 1;
+    /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 3;
+    padding: 1em;
 }
 
 aside {
-    flex-basis: 20%;
+    /*Omdat nav in een row-container staat, gaat flex-basis hier over de BREEDTE */
+    flex-basis: 20vw;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
+    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 1;
+    /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 2;
+    padding: 1em;
 }
 
 footer {
-    flex-basis: 20%;
+    /*Omdat footer in een column-container staat, gaat flex-basis hier over de HOOGTE*/
+    flex-basis: 150px;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
+    /*Het element mag niét groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 0;
+    padding: 1em;
 }

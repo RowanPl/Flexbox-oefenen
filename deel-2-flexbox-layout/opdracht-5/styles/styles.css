@@ -1,37 +1,62 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
-    flex-basis: 20vh;
+    /*Omdat header in een column-container staat, gaat flex-basis hier over de HOOGTE y*/
+    flex-basis: 200px;
+    /*Het element mag niét groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 0;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
 }
 
 main {
     display: flex;
     flex-direction: row;
+    /*Omdat main in een column-container staat, gaat flex-basis hier over de HOOGTE. We willen dat dit item alle overgebleven ruimte inneemt, dus zetten we de hoogte op auto en regelen we de rest met de grow-property*/
+    flex-basis: auto;
+    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
+    /*Het element mag wél kleiner worden dan de basis afmeting als er minder ruimte is */
+    flex-shrink: 1;
 }
 
 article {
+    /*Omdat article in een row-container staat, gaat flex-basis hier over de BREEDTE. We willen dat dit item alle overgebleven ruimte inneemt, dus zetten we de breedte op auto en regelen we de rest met de grow-property*/
+    flex-basis: auto;
+    /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
+    /*Het element mag wél kleiner worden dan de basis afmeting als er minder ruimte is */
+    flex-shrink: 1;
 }
 
 nav {
+    /*Omdat nav in een row-container staat, gaat flex-basis hier over de BREEDTE. */
     flex-basis: 20vw;
+    /*Het element mag niét groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 0;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
     order: -1;
 }
 
 aside {
+    /*Omdat aside in een row-container staat, gaat flex-basis hier over de BREEDTE. */
     flex-basis: 20vw;
+    /*Het element mag niét groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 0;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
-
 }
 
 footer {
-    flex-basis: 20vh;
+    /*Omdat footer in een column-container staat, gaat flex-basis hier over de HOOGTE y*/
+    flex-basis: 200px;
+    /*Het element mag niét groter worden dan de basis afmeting als er meer ruimte is */
+    flex-grow: 0;
+    /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 0;
 }
