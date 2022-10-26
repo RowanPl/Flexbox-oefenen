@@ -1,12 +1,10 @@
 body {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    /* @todo: dit wil je niet doen bij HOOGTES. Als de content langer wordt, betekend 20% ineens een kleinere header. Ik heb het op alle andere plekken vervangen, maar hier nog even laten staan zodat het voor jou duidelijk is waarom! :) */
-    /* WEGHALEN flex-basis: 20%;*/
     /*Omdat header in een column-container staat, gaat flex-basis hier over de HOOGTE*/
     flex-basis: 150px;
     /*Het element mag niét kleiner worden dan de basis afmeting als er minder ruimte is */
@@ -36,7 +34,6 @@ article {
     flex-grow: 1;
     /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 1;
-    padding: 1em;
 }
 
 nav {
@@ -48,7 +45,6 @@ nav {
     flex-grow: 1;
     /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 3;
-    padding: 1em;
 }
 
 aside {
@@ -60,7 +56,6 @@ aside {
     flex-grow: 1;
     /* Hiermee veranderen we de hardcoded volgorde van de elementen */
     order: 2;
-    padding: 1em;
 }
 
 footer {
@@ -70,5 +65,4 @@ footer {
     flex-shrink: 0;
     /*Het element mag niét groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 0;
-    padding: 1em;
 }

@@ -20,7 +20,7 @@ body {
     flex-basis: auto;
     /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
-    /*Het element mag wél kleoner worden dan de basis afmeting als er minder ruimte is */
+    /*Het element mag wél kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 1;
 }
 
@@ -40,7 +40,7 @@ main {
     flex-basis: auto;
     /*Het element mag wél groter worden dan de basis afmeting als er meer ruimte is */
     flex-grow: 1;
-    /*Het element mag wél kleoner worden dan de basis afmeting als er minder ruimte is */
+    /*Het element mag wél kleiner worden dan de basis afmeting als er minder ruimte is */
     flex-shrink: 1;
 }
 

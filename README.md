@@ -66,7 +66,7 @@ _TIP_: Kom je er niet helemaal uit? Check of de parent container is voorzien van
 - Zorg ervoor dat alle kolommen met de rode rand zich gedragen als een flex-container;
 - [ ] Hoe krijg je de elementen die erin staan vervolgens weer onder elkaar (`column`)?
 - [ ] In de kolommen loopt de hoofd-as van boven naar beneden. Welke property had je ook alweer nodig om items over de hoofd-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens!
-- [ ] Als je goed oplet zie je dat de items in de eerste kolom links uitgelijnd zijn, de items in de tweede kolom in het midden en de items in de rechter kolom rechts. Dit zul je dus voor iedere kolom apart moeten instellen. In de kolommen loopt de kruis-as van links naar rechts. Welke property had je ook alweer nodig om items over de kruis-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-items) eens!
+- [ ] Als je goed oplet, zie je dat de items in de eerste kolom links uitgelijnd zijn, de items in de tweede kolom in het midden en de items in de rechter kolom rechts. Dit zul je dus voor iedere kolom apart moeten instellen. In de kolommen loopt de kruis-as van links naar rechts. Welke property had je ook alweer nodig om items over de kruis-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-items) eens!
 
 ## Opdracht 2
 
@@ -77,7 +77,7 @@ Alle afbeeldingen.
 In iedere opdracht-map vind je een HTML-pagina met elementen en een (leeg) CSS-bestand. Zorg er met Flexbox voor dat de elementen zich precies zo positioneren als in het voorbeeld. Controleer hierbij ook altijd goed of de layout niet kapot gaat wanneer je de tekst eruit haalt, of juist meer tekst toevoegt.
 
 * Je mag niets aanpassen in de `index.html` bestanden, maar daar waar nodig mag je wel classes toevoegen aan de bestaande elementen.
-* Je mag het bestand `global-styles.css` niet aanpassen. Hier zit de basis-opmaak in voor de layouts;
+* Je mag het bestand `global-styles.css` niet aanpassen. Hier zit de basis-opmaak in voor de layouts, waaronder de achtergrond kleuren van de verschillende elementen.
 * Je gebruikt enkel flexbox properties om de elementen uit te lijnen, dus geen `position`, `padding` of `margin`!
 
 _TIP_: Als je `flex-shrink` of `flex-grow` properties wil gebruiken, zul je altijd eerst een `flex-basis`-waarde moeten declareren. Hoeft het element geen specifieke breedte te hebben, maar vooral alle overgebleven ruimte opvullen? Gebruik dan `flex-basis: auto` en wijs de juiste shrink- en grow-waardes toe.
@@ -88,26 +88,37 @@ Vind je het lastig om te beginnen? Volg dan het stappenplan.
 _TIP_: Kom je er niet helemaal uit? Teken eerst uit welke richtingen je allemaal nodig hebt om alle items naast- en onder elkaar te krijgen.
 
 ### Deelopdracht 1:
-![Het resultaat van opdracht 1]()
-- [ ] Lorem ipsum
-- [ ] Lorem ipsum
+![Het resultaat van opdracht 1](deel-2-flexbox-layout/assets/images/opdracht-1-eindresultaat.jpg)
+
+- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container;
+- [ ] Hoe krijg je de elementen die erin staan vervolgens weer onder elkaar (`column`)?
+- [ ] Bij een kolommen loopt de hoofd-as van boven naar beneden. Welke property had je ook alweer nodig om items over de hoofd-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens onder de flex-container properties (de licht paarse vlakken)!!
+- [ ] Geef de body een minimale hoogte met de totale viewport height van je browser. Tip: bekijk edHub hoofdstuk 6. Simpele stijlregels > Eenheden nog eens!
+- [ ] Als het goed is zie je nu alle elementen onder elkaar in een kolom. Welk element moet een rij vormen, zodat de hoofd-as van richting veranderd en de children (flex items) van dat element van links naar rechts lopen (`row`)? Ps: het klopt dat de volgorde van je `nav` en `aside` nog niet overeenkomt met het voorbeeld. Dit passen we later aan.
+- [ ] Nu we de `body` en de `main` van flexbox properties hebben voorzien, kunnen we de children (flex items) gaan voorzien van flexbox properties.
+- [ ] Geef alle flex-items een `flex-basis` property en geef deze afhankelijk van de richting van de hoofd-as een waarde mee. Voor elementen die een horizontale hoofd-as hebben, kun je het best de viewport eenheid gebruiken en voor de verticale hoofd-as is dit meestal in pixels. Voor elementen die geen vaste hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je deze op `auto` zetten.
+- [ ] Vaak wil je dat bepaalde delen van de pagina groter of kleiner mogen worden o.b.v. de hoeveelheid content of juist niet. Als het element kleiner mag worden dan de basis afmeting zet je `flex-shrink` op `1` en als het niet kleiner mag worden dan de basis afmeting zet je deze op `0`. Als het element groter mag worden dan de basis afmeting zet je `flex-grow` op `1` en als het niet groter mag worden dan de basis afmeting zet je deze op `0`. 
+- [ ] De header en footer mogen niet groeien of krimpen.
+- [ ] De main, nav, en aside mogen wel groeien, maar niet krimpen.
+- [ ] De article mag zowel groeien als krimpen.
+- [ ] Als laatste zullen we de volgorde van de verschillende elementen moeten aanpassen. Weet je nog welke property je hiervoor op de flex-items moet plaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens onder de flex-items properties (de licht oranje vlakken)!
 
 ### Deelopdracht 2:
-![Het resultaat van opdracht 2]()
+![Het resultaat van opdracht 2](deel-2-flexbox-layout/assets/images/opdracht-2-eindresultaat.jpg)
 - [ ] Lorem ipsum
 - [ ] Lorem ipsum
 
 ### Deelopdracht 3:
-![Het resultaat van opdracht 3]()
+![Het resultaat van opdracht 3](deel-2-flexbox-layout/assets/images/opdracht-3-eindresultaat.jpg)
 - [ ] Lorem ipsum
 - [ ] Lorem ipsum
 
 ### Deelopdracht 4:
-![Het resultaat van opdracht 4]()
+![Het resultaat van opdracht 4](deel-2-flexbox-layout/assets/images/opdracht-4-eindresultaat.jpg)
 - [ ] Lorem ipsum
 - [ ] Lorem ipsum
 
 ### Deelopdracht 5:
-![Het resultaat van opdracht 5]()
+![Het resultaat van opdracht 5](deel-2-flexbox-layout/assets/images/opdracht-5-eindresultaat.jpg)
 - [ ] Lorem ipsum
 - [ ] Lorem ipsum

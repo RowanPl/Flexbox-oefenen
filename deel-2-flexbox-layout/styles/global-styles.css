@@ -23,6 +23,10 @@ article {
     padding: 1em;
 }
 
+article p {
+    padding-block: 1em;
+}
+
 nav {
     color: var(--clr-blue-100);
     background: var(--clr-blue-400);
