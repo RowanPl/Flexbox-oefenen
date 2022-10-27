@@ -5,20 +5,20 @@ De `HTML elementen` (de containers en items) die je moet uitlijnen zijn al voor 
 
 ## Inhoudsopgave
 ### Opdracht 1: Positioneren met Flexbox
-1. Eindresultaat
-2. Randvoorwaarden
-3. Stappenplan
+1. [Eindresultaat](#11-eindresultaat)
+2. [Randvoorwaarden](#12-randvoorwaarden)
+3. [Stappenplan](#13-stappenplan)
 ### Opdracht 2: Layouts bouwen met Flexbox
-1. Eindresultaat
-2. Randvoorwaarden
-3. Stappenplan
+1. [Eindresultaat](#21-eindresultaat)
+2. [Randvoorwaarden](#22-randvoorwaarden)
+3. [Stappenplan](#23-stappenplan)
 
 ## Opdracht 1: Positioneren met Flexbox
-### Eindresultaat
+### 1.1 Eindresultaat 
 
 ![Het eindresultaat op desktop](deel-1-flexbox-positioneren/assets/examples/voorbeeld-pagina-desktop.png)
 
-### Randvoorwaarden
+### 1.2 Randvoorwaarden
 In het `index.html` bestand hebben we 5 opdrachten uitgewerkt. Zorg ervoor dat deze onderdelen er exact zo uit komen te zien als in het voorbeeld dat erboven wordt weergegeven. De CSS voeg je toe aan het [styles.css](deel-1-flexbox-positioneren/styles/styles.css) bestand.
 
 * Je hoeft géén nieuwe `HTML elementen` te creëren, maar daar waar nodig mag je wel classes toevoegen aan de bestaande elementen in het [index.html](deel-1-flexbox-positioneren/index.html) bestand;
@@ -27,18 +27,18 @@ In het `index.html` bestand hebben we 5 opdrachten uitgewerkt. Zorg ervoor dat d
 * Je mag het bestand `do-not-edit` niet aanpassen. Hier zit de basis-opmaak in voor de elementen;
 * Je gebruikt enkel flexbox properties om de elementen uit te lijnen, dus geen `position`, `padding` of `margin`!
 
-### Stappenplan
+### 1.3 Stappenplan
 Vind je het lastig om te beginnen? Volg dan het stappenplan.
 
 _TIP_: Kom je er niet helemaal uit? Check of de parent container is voorzien van de benodigde flexbox properties en voeg telkens 1 nieuwe property toe en kijk of dit je een stap dichter bij het eindresultaat brengt. Voeg daarna pas een volgende property toe indien nodig.
 
-### Deelopdracht 1:
+#### Deelopdracht 1:
 ![Het resultaat van opdracht 1](deel-1-flexbox-positioneren/assets/images/opdracht-1-eindresultaat.jpg)
 - [ ] Zorg dat het buitenste element zich gaat gedragen als een flex-container;
 - [ ] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich onder elkaar (`row`) of naast elkaar (`column`) bevinden?
 - [ ] Welke property heb je nodig om elementen evenredig over de gekozen hoofdrichting te verspreiden? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens!
 
-### Deelopdracht 2:
+#### Deelopdracht 2:
 ![Het resultaat van opdracht 2](deel-1-flexbox-positioneren/assets/images/opdracht-2-eindresultaat.jpg)
 - [ ] Zorg dat het buitenste element zich gaat gedragen als een flex-container;
 - [ ] Kijk naar de opbouw van de HTML-elementen en kies de hoofdrichting: moeten de elementen zich onder elkaar (`row`) of naast elkaar (`column`) bevinden?
@@ -68,12 +68,12 @@ _TIP_: Kom je er niet helemaal uit? Check of de parent container is voorzien van
 - [ ] In de kolommen loopt de hoofd-as van boven naar beneden. Welke property had je ook alweer nodig om items over de hoofd-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens!
 - [ ] Als je goed oplet, zie je dat de items in de eerste kolom links uitgelijnd zijn, de items in de tweede kolom in het midden en de items in de rechter kolom rechts. Dit zul je dus voor iedere kolom apart moeten instellen. In de kolommen loopt de kruis-as van links naar rechts. Welke property had je ook alweer nodig om items over de kruis-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-items) eens!
 
-## Opdracht 2
+## Opdracht 2: Layouts met Flexbox
 
-### Eindresultaat
-Alle afbeeldingen.
+### 2.1 Eindresultaat
+Alle afbeeldingen (maar wel verkleind!)
 
-### Randvoorwaarden
+### 2.2 Randvoorwaarden
 In iedere opdracht-map vind je een HTML-pagina met elementen en een (leeg) CSS-bestand. Zorg er met Flexbox voor dat de elementen zich precies zo positioneren als in het voorbeeld. Controleer hierbij ook altijd goed of de layout niet kapot gaat wanneer je de tekst eruit haalt, of juist meer tekst toevoegt.
 
 * Je mag niets aanpassen in de `index.html` bestanden, maar daar waar nodig mag je wel classes toevoegen aan de bestaande elementen.
@@ -82,7 +82,7 @@ In iedere opdracht-map vind je een HTML-pagina met elementen en een (leeg) CSS-b
 
 _TIP_: Als je `flex-shrink` of `flex-grow` properties wil gebruiken, zul je altijd eerst een `flex-basis`-waarde moeten declareren. Hoeft het element geen specifieke breedte te hebben, maar vooral alle overgebleven ruimte opvullen? Gebruik dan `flex-basis: auto` en wijs de juiste shrink- en grow-waardes toe.
 
-### Stappenplan
+### 2.3 Stappenplan
 Vind je het lastig om te beginnen? Volg dan het stappenplan.
 
 _TIP_: Kom je er niet helemaal uit? Teken eerst uit welke richtingen je allemaal nodig hebt om alle items naast- en onder elkaar te krijgen.
