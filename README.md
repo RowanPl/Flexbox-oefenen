@@ -90,35 +90,63 @@ _TIP_: Kom je er niet helemaal uit? Teken eerst uit welke richtingen je allemaal
 ### Deelopdracht 1:
 ![Het resultaat van opdracht 1](deel-2-flexbox-layout/assets/images/opdracht-1-eindresultaat.jpg)
 
-- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container;
+- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
 - [ ] Hoe krijg je de elementen die erin staan vervolgens weer onder elkaar (`column`)?
 - [ ] Bij een kolommen loopt de hoofd-as van boven naar beneden. Welke property had je ook alweer nodig om items over de hoofd-as te verplaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens onder de flex-container properties (de licht paarse vlakken)!!
 - [ ] Geef de body een minimale hoogte met de totale viewport height van je browser. Tip: bekijk edHub hoofdstuk 6. Simpele stijlregels > Eenheden nog eens!
 - [ ] Als het goed is zie je nu alle elementen onder elkaar in een kolom. Welk element moet een rij vormen, zodat de hoofd-as van richting veranderd en de children (flex items) van dat element van links naar rechts lopen (`row`)? Ps: het klopt dat de volgorde van je `nav` en `aside` nog niet overeenkomt met het voorbeeld. Dit passen we later aan.
 - [ ] Nu we de `body` en de `main` van flexbox properties hebben voorzien, kunnen we de children (flex items) gaan voorzien van flexbox properties.
-- [ ] Geef alle flex-items een `flex-basis` property en geef deze afhankelijk van de richting van de hoofd-as een waarde mee. Voor elementen die een horizontale hoofd-as hebben, kun je het best de viewport eenheid gebruiken en voor de verticale hoofd-as is dit meestal in pixels. Voor elementen die geen vaste hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je deze op `auto` zetten.
-- [ ] Vaak wil je dat bepaalde delen van de pagina groter of kleiner mogen worden o.b.v. de hoeveelheid content of juist niet. Als het element kleiner mag worden dan de basis afmeting zet je `flex-shrink` op `1` en als het niet kleiner mag worden dan de basis afmeting zet je deze op `0`. Als het element groter mag worden dan de basis afmeting zet je `flex-grow` op `1` en als het niet groter mag worden dan de basis afmeting zet je deze op `0`. 
-- [ ] De header en footer mogen niet groeien of krimpen.
-- [ ] De main, nav, en aside mogen wel groeien, maar niet krimpen.
-- [ ] De article mag zowel groeien als krimpen.
+- [ ] Geef alle flex-items (children van een flex-container) een `flex-basis` property en geef deze afhankelijk van de richting van de hoofd-as een waarde mee. Voor elementen die een horizontale hoofd-as hebben, kun je het best de viewport eenheid gebruiken en voor de verticale hoofd-as is dit meestal in pixels. Voor elementen die geen vaste hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je deze op `auto` zetten.
+- [ ] Gebruik de `flex-grow` en flex-`shrink` properties om ervoor te zorgen dat de `header` en `footer` niet groeien of krimpen.
+- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `main`, `nav`, en `aside` wel mogen groeien, maar niet krimpen.
+- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `article` zowel kan groeien als krimpen.
 - [ ] Als laatste zullen we de volgorde van de verschillende elementen moeten aanpassen. Weet je nog welke property je hiervoor op de flex-items moet plaatsen? Tip: spiek [hier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content) eens onder de flex-items properties (de licht oranje vlakken)!
+- [ ] Controleer of de layout nog steeds goed vertoond als je bijvoorbeeld 500 worden toevoegt aan het artikel. Tip: type `lorem500` en dan `tab` om een placeholder tekst van 500 worden te genereren
 
 ### Deelopdracht 2:
 ![Het resultaat van opdracht 2](deel-2-flexbox-layout/assets/images/opdracht-2-eindresultaat.jpg)
-- [ ] Lorem ipsum
-- [ ] Lorem ipsum
+- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
+- [ ] De elementen zullen zich direct positioneren over de horizontale hoofd-as (dit is de default property). Toch is het goed om deze te specificeren (`row`)?
+- [ ] Geef de body een minimale hoogte met de totale viewport height van je browser.
+- [ ] Zorg dat de `div` en de `main` zich ook als een flex-container gaan gedragen en geef deze een richting mee zodat de elementen zich onder elkaar positioneren (`column`)?
+- [ ] Geef alle flex-items (children van een flex-container) een `flex-basis` property en geef deze afhankelijk van de richting van de hoofd-as een waarde mee. Voor elementen die een horizontale hoofd-as hebben, kun je het best de viewport eenheid gebruiken en voor de verticale hoofd-as is dit meestal in pixels. Voor elementen die geen vaste hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je deze op `auto` zetten.
+- [ ] Om er voor te zorgen dat het `article` element net zo groot wordt als de container, ook als er geen content in staat, moet deze een width property krijgen die de totale breedte inneemt van de container.
+- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header` en `footer` niet groeien of krimpen.
+- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `div` en de `main` zowel mogen groeien als krimpen.
+- [ ] Controleer of de layout nog steeds goed vertoond als je bijvoorbeeld 500 worden toevoegt aan het artikel. Tip: type `lorem500` en dan `tab` om een placeholder tekst van 500 worden te genereren
 
 ### Deelopdracht 3:
 ![Het resultaat van opdracht 3](deel-2-flexbox-layout/assets/images/opdracht-3-eindresultaat.jpg)
-- [ ] Lorem ipsum
-- [ ] Lorem ipsum
+- [ ] Zoals je kunt zien lijkt de opmaak van deze opdracht veel op de vorige. Lukt het je om de layout zonder hulp te kunnen maken? Spiek zo nodig eens bij de vorige opdracht.
+- [ ] Om de flex-items in de `main` na hebben zij dezelfde de `flex-grow` en `flex-shrink` properties. 
+- [ ] De `aside` mag niet groeien en krimpen.
+- [ ] De article mag zowel groeien als krimpen.
+- [ ] Controleer of de layout nog steeds goed vertoond als je bijvoorbeeld 500 worden toevoegt aan het artikel. Tip: type `lorem500` en dan `tab` om een placeholder tekst van 500 worden te genereren
 
 ### Deelopdracht 4:
 ![Het resultaat van opdracht 4](deel-2-flexbox-layout/assets/images/opdracht-4-eindresultaat.jpg)
-- [ ] Lorem ipsum
-- [ ] Lorem ipsum
+- [ ] Zoals je kunt zien wordt de layout al wat complexer. Bekijk eerst goed welke delen van de pagina in de HTML-structuur zijn genest. 
+- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
+- [ ] De elementen zullen zich direct positioneren over de horizontale hoofd-as (dit is de default property). Toch is het goed om deze te specificeren (`row`)?
+- [ ] Geef de body een minimale hoogte met de totale viewport height van je browser.
+- [ ] Zorg dat alle overige parent elementen zich ook gedragen als een flex-container.
+- [ ] Zorg dat alle flex-containers een richting krijgen waarover de hoofd-as moet lopen. Teken dit zo nodig voor jezelf uit.
+- [ ] Geef alle flex-items (children van een flex-container) een `flex-basis` property en geef deze afhankelijk van de richting van de hoofd-as een waarde mee. Voor elementen die een horizontale hoofd-as hebben, kun je het best de viewport eenheid gebruiken en voor de verticale hoofd-as is dit meestal in pixels. Voor elementen die geen vaste hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je deze op `auto` zetten.
+- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header`, `aside` en de `footer` niet groeien of krimpen.
+- [ ] Alle overige flex-items mogen zowel groeien als krimpen.
+- [ ] Controleer of de layout nog steeds goed vertoond als je bijvoorbeeld 500 worden toevoegt aan het artikel. Tip: type `lorem500` en dan `tab` om een placeholder tekst van 500 worden te genereren
 
 ### Deelopdracht 5:
 ![Het resultaat van opdracht 5](deel-2-flexbox-layout/assets/images/opdracht-5-eindresultaat.jpg)
-- [ ] Lorem ipsum
-- [ ] Lorem ipsum
+- [ ] Zorg dat de `body` zich gaat gedragen als een flex-container.
+- [ ] De elementen zullen zich direct positioneren over de verticale hoofd-as (`column`)?
+- [ ] Geef de body een minimale hoogte met de totale viewport height van je browser.
+- [ ] Zorg dat het andere parent elementen zich ook gedraagt als een flex-container.
+- [ ] Zorg dat deze flex-containers de richting krijgt waarover de hoofd-as moet lopen (`row`).
+- [ ] Geef alle flex-items (children van een flex-container) een `flex-basis` property en geef deze afhankelijk van de richting van de hoofd-as een waarde mee. Voor elementen die een horizontale hoofd-as hebben, kun je het best de viewport eenheid gebruiken en voor de verticale hoofd-as is dit meestal in pixels. Voor elementen die geen vaste hoogte/breedte hebben (zoals vaak bij het `main` element het geval is), mag je deze op `auto` zetten.
+- [ ] Gebruik de `flex-grow` en `flex-shrink` properties om ervoor te zorgen dat de `nav`, `header`, `aside` en de `footer` niet groeien of krimpen.
+- [ ] Alle overige flex-items mogen zowel groeien als krimpen.
+- [ ] Controleer of de layout nog steeds goed vertoond als je bijvoorbeeld 500 worden toevoegt aan het artikel. Tip: type `lorem500` en dan `tab` om een placeholder tekst van 500 worden te genereren
+
+
+

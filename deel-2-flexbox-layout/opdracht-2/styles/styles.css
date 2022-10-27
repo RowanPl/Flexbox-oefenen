@@ -45,6 +45,7 @@ main {
 }
 
 article {
+    /* Todo @ Nova: waarom heeft deze een width en geen flex-basis als de parent container een horizontale hoofd-as heeft?*/
     /*Om ervoor te zorgen dat article net zo groot wordt als de container, ook als er GEEN content in staat, hebben we de width property nodig*/
     width: 100%;
 }
