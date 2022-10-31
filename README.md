@@ -143,8 +143,6 @@ dan `flex-basis: auto` en wijs de juiste shrink- en grow-waardes toe.
 
 ### 2.3 Stappenplan
 
-Vind je het lastig om te beginnen? Volg dan het stappenplan.
-
 ### Deelopdracht 1:
 
 ![Het resultaat van opdracht 1](deel-2-flexbox-layout/assets/images/opdracht-1-eindresultaat.jpg)
