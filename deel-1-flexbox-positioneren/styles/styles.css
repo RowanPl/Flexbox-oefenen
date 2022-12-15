@@ -1,28 +1,60 @@
 /*Schrijf hier jouw CSS*/
 
-.Flex-Container1{
+.flex-container1{
     display: flex;
     justify-content: space-between;
 }
-.Flex-container2 {
+.flex-container2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.O2Flex{
+.o2flex{
 flex-basis: 300px;
 }
-.O3Flex{
+.o3flex{
     display: Flex;
     flex-direction: column;
 }
 
-.O3Li{
-align-self: flex-start;
+.o3li{
+    align-self: flex-start;
 }
-.O3Ce{
+.o3ce{
     align-self: center;
 }
-.O3Re{
+.o3re{
     align-self: flex-end;
+}
+
+.opdracht-4 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.opdracht-5 div{
+    display: flex;
+    justify-content: space-between;
+}
+.opdracht-5 ul:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+}
+.opdracht-5 ul:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.opdracht-5 ul:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-end;
 }
