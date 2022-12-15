@@ -1,1 +1,6 @@
 /*Schrijf hier jouw CSS*/
+
+.Flex-Container{
+    display: flex;
+    justify-content: space-between;
+}
