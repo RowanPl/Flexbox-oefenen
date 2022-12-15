@@ -1,11 +1,11 @@
 # Opdrachtomschrijving
 
-Zoals je hebt geleerd kun je met flexbox `HTML elementen` op diverse manier uitlijnen, maar ook complexe layouts maken.
+Zoals je hebt geleerd kun je met flexbox HTML elementen op diverse manier uitlijnen, maar ook complexe layouts maken.
 In de eerste opdracht ga je vooral de children (flex items) binnen de parent (flex container) uitlijnen. In het tweede
-deel ga je complexere layouts bouwen door gebruik te maken van properties als `flex-basis`, `flex-grow` en `flex-shrink`
+deel ga je complexere layouts bouwen door gebruik te maken van properties als `flex-basis`, `flex-grow` en `flex-shrink`. In de derde opdracht laten we je los: dan ga je een simpele webpagina maken met flexbox.
 .
 
-De HTML elementen (de containers én items) die je moet uitlijnen zijn al voor je klaargezet, zodat jij alleen de CSS
+De HTML elementen (de containers én items) die je moet uitlijnen zijn in de eerste twee opdrachten al voor je klaargezet, zodat jij alleen de CSS
 hoeft te schrijven. Benieuwd welke flexbox properties er allemaal zijn? Je vindt hier een overzicht van
 alle [Flexbox properties](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) uitgesplitst op properties die van
 toepassing zijn op de parent (flex container) en de children (flex items).
@@ -23,6 +23,11 @@ toepassing zijn op de parent (flex container) en de children (flex items).
 1. [Eindresultaat](#21-eindresultaat)
 2. [Randvoorwaarden](#22-randvoorwaarden)
 3. [Stappenplan](#23-stappenplan)
+
+### Opdracht 3: Webpagina met flexbox
+
+1. [Eindresultaat](#31-eindresultaat)
+2. [Randvoorwaarden](#32-randvoorwaarden)
 
 ## Opdracht 1: Positioneren met Flexbox
 
@@ -244,6 +249,33 @@ Lukt het je om de layout zonder hulp te kunnen maken? Zo nee, spiek dan even bij
 - [ ] Controleer of de layout er nog steeds goed uitziet als je bijvoorbeeld 500 worden toevoegt aan het artikel, of
   juist alle tekst verwijderd.
 
+## Opdracht 3: Landingspagina
+
+### 3.1 Eindresultaat (deel 1)
+
+#### Breed scherm
+![Het eindresultaat op desktop](deel-3-webpagina/assets/screenshot-large-body.png)
+#### Smaller scherm
+![Het eindresultaat op tablets](deel-3-webpagina/assets/screenshot-small-body.png)
+
+### 3.2 Randvoorwaarden (deel 1)
+* De kleuren die gebruikt zijn komen uit [dit palet](https://coolors.co/151e3f-030027-f2f3d9-dc9e82-c16e70). Het lettertype mag je zelf uitkiezen.
+* De titels hebben we er alvast ingezet, maar de andere elementen mag je zelf maken. Je gaat nu dus zowel aan de slag in het CSS-bestand, als in het HTML-bestand.
+* Zorg dat in ieder rood blok een element is, met daarin een `<p>`-element van 30 woorden. Deze tekst moet altijd aan de **onderkant** van het blok staan. Deze rode blokken mogen maximaal 280 pixels breed worden en evenredig krimpen als er minder ruimte beschikbaar is. Ze moeten altijd `350px` hoog zijn.
+* Zorg dat alle tekst en blokken in het midden van de pagina worden uitgelijnt. Gebruik hier geen `margin: 0 auto` voor, maar maak gebruik van flexbox!
+* Let op: je hoeft geen gebruik te maken van media-queries.
+
+### 3.3 Eindresultaat (deel 2)
+De landingspagina begint langzaam vorm te krijgen. Je gaat deze pagina nu uitbreiden met een navigatiebalk. Dit doe je uiteraard in hetzelfde bestand. Deze navigatiebalk staat boven de rest van de content en ziet er zo uit:
+
+#### Breed scherm
+![desktop layout large](deel-3-webpagina/assets/screenshot-large.png)
+#### Smaller scherm
+![desktop layout small](deel-3-webpagina/assets/screenshot-small.png)
+
+### Randvoorwaarden
+* De content staat minimaal 40 pixels van de rand van het scherm af, zowel in de navigatiebalk als op de pagina zelf.
+* Let op: je hoeft géén gebruik te maken van media-queries.
 
 
 
