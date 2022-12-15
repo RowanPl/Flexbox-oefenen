@@ -1,6 +1,28 @@
 /*Schrijf hier jouw CSS*/
 
-.Flex-Container{
+.Flex-Container1{
     display: flex;
     justify-content: space-between;
+}
+.Flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.O2Flex{
+flex-basis: 300px;
+}
+.O3Flex{
+    display: Flex;
+    flex-direction: column;
+}
+
+.O3Li{
+align-self: flex-start;
+}
+.O3Ce{
+    align-self: center;
+}
+.O3Re{
+    align-self: flex-end;
 }
