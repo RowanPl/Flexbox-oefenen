@@ -1,1 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;600&display=swap');
 /*Schrijf hier jouw css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F2F3D9 ;
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+
+}
+a:link{
+    color: white;
+    text-decoration-line: none;
+}
+p{
+    font-size:15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+
+}
+li{
+    color: white;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+nav {
+    background-color: #030027;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+nav p{
+    justify-content: flex-start;
+}
+
+h1{
+    padding: 50px 40px 0px 40px;
+}
+h3{
+    padding: 0px 40px 40px 40px;
+}
+
+section{
+    display: flex;
+justify-content: center;
+}
+.flex-cont{
+    display: flex;
+    gap: 30px;
+
+}
+
+.flex-cont p{
+background-color: #C16E70;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 280px;
+    min-height: 350px;
+    align-items: flex-end;
+    padding: 0 0 10px;
+}
