@@ -1,18 +1,18 @@
 /*Schrijf hier jouw CSS*/
 body{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header{
-flex-basis: 100vw;
+    flex-basis: 100px;
     flex-grow: 0;
     flex-shrink: 0;
 }
 
 main{
     display: flex;
-    flex-basis: 100vw;
+    flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 0;
 }
@@ -37,7 +37,7 @@ aside{
 }
 
 footer{
-    flex-basis: 100vw;
+    flex-basis: 100px;
     flex-grow: 0;
     flex-shrink: 0;
 }
